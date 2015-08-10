@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+		<title>Joy E. Karp</title>
+
+		<!-- CSS  -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!-- Compiled and minified CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+		<!--CSS code that overrides certain tags-->
+		<link type="text/css" rel="stylesheet" href="css/index.css"  media="screen,projection"/>
+
+	</head>
+	<body class="grey lighten-2">
+		<main>
+			<div class="section green accent-4" id="index-banner">
+				<div class="container">
+					<div class="row">
+						<div class="col s12 m9">
+							<h1 class="header center-on-small-only white-text">Joy E. Karp</h1>
+							<h5 class="light white-text text-lighten-4 center-on-small-only">Creator of “McDonald’s Hands-On Business Training</h5><h5 class="light white-text text-lighten-4 center-on-small-only" style="
+								padding-left: 120px;">Program”</h5>
+						</div><!--col s12 m9--> 
+					</div><!--row-->
+				</div><!--container-->
+			</div><!--section-->
+		</main> 
+		<nav class="white" role="navigation">
+			<div class="nav-wrapper container">
+				<ul id="nav-mobile" class="left hide-on-med-and-down">
+					<li><a class="black-text" href="index.html">Home</a></li>
+					<li><a class="black-text" href="about.html">About Joy</a></li>
+					<li><a class="black-text" href="media.html">Media</a></li>
+					<!-- Modal Trigger for Contact -->
+					<li><a class="black-text modal-trigger" href="#modalContact">Contact me</a></li>
+					<!-- Modal Structure -->
+				</ul>
+			</div>
+		</nav>
+		<!-- Modal Structure -->
+		<div id="modalContact" class="modal">
+			<div class="modal-content">
+				<h4>Rick Karp</h4>
+				<h6 class="grey-text">President at Whitehorse Chamber of Commerce</h6>
+				<blockquote>
+					<ul>
+						<li><i class="mdi-action-home"> 101-302 Steele Street, Whitehorse, Yukon,Canada, Y1A 2C5</i></li>
+						<li><i class="mdi-communication-phone"> 867-667-7545</i></li>
+						<li><i class="mdi-communication-phone"> 867-332-7545</i></li>
+						<li><i class="mdi-communication-email"><a href="mailto:president@whitehorsechamber.ca"> president@whitehorsechamber.ca</a></i></li>
+						<li><i class="mdi-av-web"><a href="http://whitehorsechamber.ca" target="_blank"> http://whitehorsechamber.ca</a></i></li>
+					</ul>
+				</blockquote>
+			</div>
+		</div><!--modalContact-->
+
+		<br><br>
+		<div class="container">
+			<div class="row">
+				<div class="s12 m4 l8">
+					<div class="card-panel">
+
+						<div class="divider"></div>
+						<div class="section">
+							<h5>Section 1</h5>
+							<p>Stuff</p>
+						</div>
+						<div class="divider"></div>
+						<div class="section">
+							<h5>Section 2</h5>
+							<p>Stuff</p>
+						</div>
+						<div class="divider"></div>
+						<div class="section">
+							<h5>Section 3</h5>
+							<p>Stuff</p>
+						</div>
+					</div><!--card panel-->
+				</div><!--s12 m4 l8-->
+			</div><!--row-->
+		</div><!--container-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+		<script> $(document).ready(function(){
+			// the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+			$('.modal-trigger').leanModal();
+		});</script>
+</body>
+</html>
+
+
