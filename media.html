@@ -68,67 +68,88 @@
 		<div class="container">
 			<div class="row">
 				<h4 class="deep-orange-text">See Joy In:</h4>
-				<div class="col s4">
+				<div class="col s6">
 					<div class="card small">
-						<h4 class="activator" id="card_title">TV</h4>
+						<h4 class="activator" id="card_title">TV & RADIO</h4>
 						<!-- Card Content -->
 						<br><br>
 						<!-- Card Content -->
-						<div class="icon">
-							<i class="material-icons large center-align activator">videocam</i>
-						</div><!--icon-->
-						<div class="card-content activator">
-						</div><!--card-content-->
-						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-							<p>Here is some more information about this product that is only revealed once clicked on.</p>
-						</div>
-					</div><!--card small-->
-				</div><!--col s4-->
-				<div class="col s4">
-					<div class="card small">
-						<h4 class="activator" id="card_title">RADIO</h4>
-						<br><br>
 						<div class="icon">
 							<i class="material-icons large center-align activator">radio</i>
 						</div><!--icon-->
-						<!-- Card Content -->
 						<div class="card-content activator">
 						</div><!--card-content-->
-						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-							<p>Here is some more information about this product that is only revealed once clicked on.</p>
+						<div class="card-action ">
+							<a class="waves-effect waves-light btn activator light-blue darken-2 white-text">See more</a>
 						</div>
+						<div class="card-reveal">
+							<span class="card-title deep-orange-text">See her in:<i class="material-icons right">close</i></span>
+							<ul>
+								<li class="hoverable"><a href="http://www.cbc.ca/player/News/TV+Shows/Lang+%26+O%27Leary+Exchange/ID/2476529016/" target="_blank"><h5>CBC National News Network - Lang O'Leary Show</h5></a></li>
+								<li class="hoverable">
+									<!-- Modal Trigger -->
+									<a class="modal-trigger" href="#richmond_virginia"><h5>Richmond Virginia Morning News - 1140 WRVA</h5></a>	
+								</li>
+								<li class="hoverable">
+									<!-- Modal Trigger -->
+									<a class="modal-trigger" href="#kido_radio"><h5>KIDO Radio 580 AM - Boise Idaho</h5></a>	
+								</li>
+							</ul>
+						</div><!--card-reveal-->
 					</div><!--card small-->
 				</div><!--col s4-->
-				<div class="col s4">
+				<div class="col s6">
 					<div class="card small">
-						<h4 class="activator" id="card_title">ARTICLES</h4>
+						<h4 class="activator" id="card_title">Articles</h4>
 						<br><br>
-						<!-- Card Content -->
 						<div class="icon">
-							<i class="material-icons large center-align activator">list</i>
+							<i class="material-icons large center-align activator">library_books</i>
 						</div><!--icon-->
-
+						<!-- Card Content -->
 						<div class="card-content activator">
 						</div><!--card-content-->
-						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-							<p>Here is some more information about this product that is only revealed once clicked on.</p>
+						<div class="card-action ">
+							<a class="waves-effect waves-light btn activator light-blue darken-2 white-text">See more</a>
 						</div>
 
+						<div class="card-reveal">
+							<span class="card-title deep-orange-text">See her in:<i class="material-icons right">close</i></span>
+						</div><!--card-content-->
+					</div><!--card small-->
+				</div><!--col s4-->
 
 
-					</div><!--row-->
-				</div><!--container-->
+				<!-- Modal Structure For Richmond Virginia -->
+				<div id="richmond_virginia" class="modal">
+					<div class="modal-content center">
+						<audio controls><source class="center" src="audio/Richmond Virginia.mp3" type="audio/mp3"></audio>			
+						</div><!--modal-content-->
+						<div class="modal-footer">
+							<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat green white-text">Done</a>
+						</div><!--modal-footer-->
+					</div><!--richmond-virginia-->
 
-				<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
-				<script> $(document).ready(function(){
-					// the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-					$('.modal-trigger').leanModal();
-				});</script>
-		</body>
-	</html>
+					<!-- Modal Structure For Kido Radio -->
+					<div id="kido_radio" class="modal">
+						<div class="modal-content center">
+							<audio controls><source class="center" src="audio/Kido Radio.mp3" type="audio/mp3"></audio>			
+								<audio controls><source class="center" src="audio/Kido Radio_2.mp3" type="audio/mp3"></audio>			
+								</div><!--modal-content-->
+								<div class="modal-footer">
+									<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat green white-text">Done</a>
+								</div><!--modal-footer-->
+							</div><!--Kido Radio-->
+
+						</div><!--row-->
+					</div><!--container-->
+
+					<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+					<script> $(document).ready(function(){
+						// the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+						$('.modal-trigger').leanModal();
+					});</script><!--modal for contact card-->
+			</body>
+		</html>
 
 
