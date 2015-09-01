@@ -23,7 +23,7 @@ i.material-icons.black {
 }
 #nav-menu {
 	position: fixed;
-	top: 100%;
-	margin-top: -2.5em;
+	top: 50%;
+	margin-top: -3.5em;
 	
 }
