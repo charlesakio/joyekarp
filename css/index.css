@@ -23,4 +23,6 @@ i.material-icons.black {
 }
 #nav-menu {
 	position: fixed;
+	top: 100%;
+	
 }
