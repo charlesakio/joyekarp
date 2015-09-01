@@ -21,3 +21,6 @@ p.book-info.flow-text {
 i.material-icons.black {
 	color: black;
 }
+#nav-menu {
+	position: fixed;
+}
