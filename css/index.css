@@ -17,6 +17,7 @@ p.book-info.flow-text {
     padding-left: 10px;
     padding-right: 10px;
 }
-	
 
-
+i.material-icons.black {
+	color: black;
+}
