@@ -2,14 +2,21 @@
 	margin-left: 50px;
 }
 
-.book_image {
-
-    width: 300px;
+img.book_image {
+	width: 400px;
 	
 }
 .card {
 	border-radius: 25px;
-	box-shadow: 10px 10px 5px #888888;
-		
+	box-shadow: 10px 10px 5px #888888;		
 }
+p.card-title.green-text {
+	margin-bottom: 0px;
+}
+p.book-info.flow-text {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+	
+
 
